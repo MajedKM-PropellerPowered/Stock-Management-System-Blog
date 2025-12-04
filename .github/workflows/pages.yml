@@ -9,7 +9,7 @@ jobs:
     env:
       JEKYLL_ENV: production
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v6
       
       - uses: ruby/setup-ruby@v1
         with:
